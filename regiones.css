@@ -1,0 +1,10 @@
+
+
+.input-large:after{
+    color: yellow;
+    content: 'hola';
+}
+
+.input-large:nth-child(4n) {
+    color: lime;
+  }
