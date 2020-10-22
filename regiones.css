@@ -1,10 +1,5 @@
 
 
-.input-large:after{
-    color: yellow;
-    content: 'hola';
-}
-
-.input-large:nth-child(4n) {
-    color: lime;
-  }
+/* No es posible añadir
+pseudoelementos ::after y ::before a 
+elementos que no tengan contenido dentro */
