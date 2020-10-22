@@ -1,4 +1,5 @@
-
+window.onload = function() {
+      
     $("#ship-state option[value='I Región']").append(' - Tarapaca');
     $("#ship-state option[value='II Región']").append(' - Antofagasta');
     $("#ship-state option[value='III Región']").append(' - Atacama');
@@ -15,7 +16,6 @@
     $("#ship-state option[value='XV Región']").append(' - Arica y Parinacota');
     $("#ship-state option[value='XVI Región']").append(' - Ñuble');
 
-
-
+};
 
 
